@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1080" role="img" aria-label="performance placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3a434d"/>
+      <stop offset="1" stop-color="#0F1115"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+  <rect width="800" height="1080" fill="url(#bg)"/>
+  
+  <ellipse cx="240" cy="259" rx="496" ry="367" fill="url(#haze)" filter="url(#soft)"/>
+  <g opacity=".55">
+    <polygon points="40,65 100,65 350,842 170,842" fill="url(#beam)"/>
+    <polygon points="300,22 352,22 530,842 370,842" fill="url(#beam)"/>
+    <polygon points="210,108 260,108 450,842 300,842" fill="url(#beam)"/>
+  </g>
+  <g fill="#0A0B0D">
+    <rect x="64" y="302" width="80" height="205" rx="6"/>
+    <rect x="576" y="259" width="96" height="248" rx="6"/>
+    <rect x="440" y="324" width="64" height="184" rx="5"/>
+  </g>
+  <g fill="#BFD3E3" fill-opacity=".22">
+    <rect x="67" y="335" width="74" height="5"/>
+    <rect x="579" y="292" width="90" height="5"/>
+  </g>
+  <circle cx="240" cy="572" r="80" fill="#0A0B0D"/>
+  <rect x="198" y="616" width="83" height="162" rx="19" fill="#0A0B0D"/>
+  <rect x="182" y="626" width="115" height="17" rx="5" fill="#BFD3E3" fill-opacity=".28"/>
+  <g fill="#08090B">
+    <circle cx="48" cy="913" r="80"/>
+    <circle cx="208" cy="934" r="88"/>
+    <circle cx="376" cy="907" r="96"/>
+    <circle cx="552" cy="937" r="92"/>
+    <circle cx="736" cy="907" r="96"/>
+    <rect x="0" y="929" width="800" height="151"/>
+  </g>
+  <g stroke="#BFD3E3" stroke-opacity=".3" stroke-width="2" fill="none">
+    <path d="M0 389c192 76 320 32 448 -22s240 -11 400 43"/>
+  </g>
+  <rect x="0" y="940" width="800" height="140" fill="#0A0B0D" opacity=".58"/>
+  <text x="400" y="992" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" letter-spacing="6" fill="#BFD3E3">LUDOSOUL &amp; FRIENDS</text>
+  <text x="400" y="1026" text-anchor="middle" font-family="Arial, sans-serif" font-size="42" font-weight="600" letter-spacing="2" fill="#E6ECF1">PERFORMANCE</text>
+</svg>

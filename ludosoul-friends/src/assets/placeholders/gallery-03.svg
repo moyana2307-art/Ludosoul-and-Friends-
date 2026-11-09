@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 1000" role="img" aria-label="behind the scenes placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#272d34"/>
+      <stop offset="1" stop-color="#0F1115"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="11"/></filter>
+  </defs>
+  <rect width="760" height="1000" fill="url(#bg)"/>
+  
+  <ellipse cx="334" cy="420" rx="418" ry="340" fill="url(#haze)" filter="url(#soft)"/>
+  <g fill="#0F1115" stroke="#BFD3E3" stroke-opacity=".14">
+    <rect x="76" y="180" width="410" height="340" rx="10"/>
+    <rect x="129" y="420" width="304" height="240" rx="8"/>
+  </g>
+  <g fill="#22272E">
+    <rect x="129" y="240" width="304" height="50" rx="4"/>
+    <rect x="486" y="550" width="213" height="180" rx="6"/>
+  </g>
+  <g fill="#BFD3E3">
+    <circle cx="175" cy="270" r="9" fill-opacity=".7"/>
+    <circle cx="220" cy="270" r="9" fill-opacity=".35"/>
+    <circle cx="266" cy="270" r="9" fill-opacity=".18"/>
+    <rect x="152" y="490" width="68" height="68" rx="4" fill-opacity=".18"/>
+    <rect x="258" y="490" width="68" height="68" rx="4" fill-opacity=".18"/>
+    <rect x="365" y="490" width="68" height="68" rx="4" fill-opacity=".18"/>
+  </g>
+  <g stroke="#BFD3E3" stroke-opacity=".34" stroke-width="3" fill="none" stroke-linecap="round">
+    <path d="M486 550c-76 -80 -15 -140 -91 -200"/>
+    <path d="M547 730c30 60 -38 100 8 160"/>
+  </g>
+  <g fill="#BFD3E3" fill-opacity=".55">
+    <circle cx="152" cy="720" r="3"/>
+    <circle cx="654" cy="260" r="3"/>
+    <circle cx="380" cy="800" r="3"/>
+  </g>
+  <path d="M38 860l99 -140 99 140z" fill="#0F1115" stroke="#BFD3E3" stroke-opacity=".16"/>
+  <rect x="0" y="860" width="760" height="140" fill="#0A0B0D" opacity=".58"/>
+  <text x="380" y="912" text-anchor="middle" font-family="Arial, sans-serif" font-size="21" letter-spacing="6" fill="#BFD3E3">LUDOSOUL &amp; FRIENDS</text>
+  <text x="380" y="946" text-anchor="middle" font-family="Arial, sans-serif" font-size="40" font-weight="600" letter-spacing="2" fill="#E6ECF1">BEHIND THE SCENES</text>
+</svg>

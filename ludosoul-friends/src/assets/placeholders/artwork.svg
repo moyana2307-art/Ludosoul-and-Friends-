@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 900" role="img" aria-label="Artwork placeholder">
+  <defs>
+    <radialGradient id="bg" cx="30%" cy="24%" r="90%">
+      <stop offset="0" stop-color="#3a434d"/>
+      <stop offset=".55" stop-color="#252b32"/>
+      <stop offset="1" stop-color="#0F1115"/>
+    </radialGradient>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="900" height="900" fill="url(#bg)"/>
+  <circle cx="450" cy="450" r="390" fill="url(#halo)"/>
+  <g fill="none" stroke="#BFD3E3" stroke-opacity=".16">
+    <circle cx="450" cy="450" r="308"/>
+    <circle cx="450" cy="450" r="254"/>
+    <circle cx="450" cy="450" r="198"/>
+    <circle cx="450" cy="450" r="142"/>
+    <circle cx="450" cy="450" r="86"/>
+  </g>
+  <circle cx="450" cy="450" r="42" fill="#BFD3E3" fill-opacity=".18" stroke="#BFD3E3" stroke-opacity=".5"/>
+  <circle cx="450" cy="450" r="8" fill="#E6ECF1" fill-opacity=".85"/>
+  <g fill="#D6E0E9" fill-opacity=".55">
+    <path d="M450 172l7 16 16 7-16 7-7 16-7-16-16-7 16-7z"/>
+    <path d="M700 590l5 12 12 5-12 5-5 12-5-12-12-5 12-5z"/>
+    <path d="M220 640l4 10 10 4-10 4-4 10-4-10-10-4 10-4z"/>
+  </g>
+  <rect x="0" y="690" width="900" height="210" fill="#0A0B0D" opacity=".62"/>
+  <text x="450" y="770" text-anchor="middle" font-family="Arial, sans-serif" font-size="17" letter-spacing="7" fill="#BFD3E3">LUDOSOUL &amp; FRIENDS</text>
+  <text x="450" y="824" text-anchor="middle" font-family="Arial, sans-serif" font-size="34" font-weight="600" letter-spacing="3" fill="#E6ECF1">ARTWORK COMING SOON</text>
+</svg>

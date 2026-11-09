@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 700" role="img" aria-label="crowd placeholder image">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#272d34"/>
+      <stop offset="1" stop-color="#0A0B0D"/>
+    </linearGradient>
+    <radialGradient id="haze" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="beam" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#BFD3E3" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#BFD3E3" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft"><feGaussianBlur stdDeviation="13"/></filter>
+  </defs>
+  <rect width="900" height="700" fill="url(#bg)"/>
+  
+  <ellipse cx="648" cy="196" rx="540" ry="294" fill="url(#haze)" filter="url(#soft)"/>
+  <circle cx="0" cy="56" r="1.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="338" cy="315" r="2.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="675" cy="154" r="3.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="113" cy="413" r="1.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="450" cy="253" r="2.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="788" cy="92" r="3.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="225" cy="351" r="1.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="563" cy="190" r="2.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="0" cy="449" r="3.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="338" cy="288" r="1.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="675" cy="127" r="2.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="113" cy="387" r="3.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="450" cy="226" r="1.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="788" cy="65" r="2.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="225" cy="324" r="3.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="563" cy="163" r="1.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="0" cy="422" r="2.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="338" cy="261" r="3.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="675" cy="101" r="1.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="113" cy="360" r="2.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="450" cy="199" r="3.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="788" cy="458" r="1.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <circle cx="225" cy="297" r="2.4" fill="#BFD3E3" fill-opacity="0.36"/>
+  <circle cx="563" cy="136" r="3.4" fill="#BFD3E3" fill-opacity="0.45"/>
+  <circle cx="0" cy="395" r="1.4" fill="#BFD3E3" fill-opacity="0.18"/>
+  <circle cx="338" cy="235" r="2.4" fill="#BFD3E3" fill-opacity="0.27"/>
+  <g stroke="#BFD3E3" stroke-opacity=".24" stroke-width="2" fill="none" stroke-linecap="round" filter="url(#soft)">
+    <path d="M450 84L594 434"/>
+    <path d="M846 70L738 434"/>
+    <path d="M648 42L666 448"/>
+  </g>
+  <g fill="#08090B"><circle cx="27" cy="560" r="68"/><circle cx="141" cy="588" r="78"/><circle cx="191" cy="616" r="89"/><circle cx="304" cy="560" r="68"/><circle cx="354" cy="588" r="78"/><circle cx="468" cy="616" r="89"/><circle cx="518" cy="560" r="68"/><circle cx="632" cy="588" r="78"/><circle cx="681" cy="616" r="89"/><circle cx="795" cy="560" r="68"/><circle cx="845" cy="588" r="78"/></g>
+  <g stroke="#08090B" stroke-width="25" fill="none" stroke-linecap="round"><path d="M129 594c14-48 8-82 -6-112"/><path d="M257 624c-14-48 -8-82 6-112"/><path d="M386 594c14-48 8-82 -6-112"/><path d="M514 624c-14-48 -8-82 6-112"/><path d="M643 594c14-48 8-82 -6-112"/><path d="M771 624c-14-48 -8-82 6-112"/></g>
+  <rect x="0" y="613" width="900" height="88" fill="#08090B"/>
+  <rect x="0" y="560" width="900" height="140" fill="#0A0B0D" opacity=".58"/>
+  <text x="450" y="612" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" letter-spacing="6" fill="#BFD3E3">LUDOSOUL &amp; FRIENDS</text>
+  <text x="450" y="646" text-anchor="middle" font-family="Arial, sans-serif" font-size="47" font-weight="600" letter-spacing="2" fill="#E6ECF1">CROWD</text>
+</svg>
